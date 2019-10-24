@@ -1,0 +1,21 @@
+{
+  "name": "upyun-console",
+  "version": "1.0.0",
+  "description": " 又拍云服务管理开放 api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "upyun",
+    "service",
+    "bucket",
+    "domain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15"
+  }
+}
