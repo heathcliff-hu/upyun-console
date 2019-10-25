@@ -45,7 +45,7 @@ module.exports = class Domain {
    * @param {String} domain
    * @return {Promise<void>}
    */
-  async delete(bucket_name, domain) {
+  async remove(bucket_name, domain) {
     await this.req.delete('/buckets/domains', {
       params: {bucket_name, domain},
     });
