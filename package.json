@@ -1,6 +1,6 @@
 {
   "name": "upyun-console",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " 又拍云服务管理开放 api",
   "main": "index.js",
   "scripts": {
