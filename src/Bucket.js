@@ -37,7 +37,7 @@ module.exports = class Bucket {
    * @param {Boolean} clean 是否是真删除，默认是假删除
    * @return {Promise<void>}
    */
-  async delete(bucket_name, password, clean = false) {
+  async remove(bucket_name, password, clean = false) {
     await this.req.post('/buckets/delete', {
       bucket_name,
       password,
