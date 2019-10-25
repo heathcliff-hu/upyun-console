@@ -1,5 +1,6 @@
 const Bucket = require('./Bucket');
 const Domain = require('./Domain');
+const Operator = require('./Operator');
 const createReq = require('./create-req');
 
 module.exports = class Client {
@@ -22,5 +23,6 @@ module.exports = class Client {
 
     this.domain = new Domain(this.req);
     this.bucket = new Bucket(this.req);
+    this.operator = new Operator(this.req);
   }
 };
