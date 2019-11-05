@@ -34,7 +34,6 @@ module.exports = class Domain {
       bucket_name,
       domain,
       callback,
-      type,
     });
   }
 
